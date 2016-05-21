@@ -1,0 +1,128 @@
+* { margin: 0px;
+	box-sizing: border-box;
+	background-color: white;
+	font-family: arial, helvetica, sans-serif;
+}
+
+div.title {
+	background: white; 
+	margin-top: 20px;
+	
+}
+div.main {
+	
+	border: 1px solid black;
+	height: 400px;
+    width:100%;
+    padding-right:10%;
+	padding-left:10%;
+	padding-top: 20px;
+	
+}
+
+#red {
+	background-color:red;
+}
+
+#blue {
+	background-color:blue;
+	
+}
+
+
+#green {
+	background-color:green;
+}
+
+div.smallbox {
+
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	margin-bottom: 10px;
+	position:relative;
+	height:20px;
+	width:80px;
+	left:212px;
+	top:0px;
+	padding-right:5px;
+	color:white;
+	font-weight:bold;
+	text-align:right;
+}
+	
+a { 
+	color:darkgreen;
+	text-decoration:none;
+	}
+
+	a:hover { 
+		color:darkkhaki;
+	}	
+	
+
+div.more {
+	position:relative;
+	height:20px;
+	width:100px;
+	left:190px;
+	top:0px;
+	font-size:0.8em;
+	padding-top:7px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom:20px;
+	
+}
+
+div.box {
+	border: 1px solid black;
+	height: 140px;
+	width: 300px;
+	float: left;
+	margin-right: 5%;
+	margin-bottom: 10px;
+	padding:0px 7px 7px 7px;
+	text-align: justify;
+	position:relative;
+}	
+  
+div.smallbox_pork {
+
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	margin-bottom: 10px;
+	position:relative;
+	height:20px;
+	width:80px;
+	left:212px;
+	top:0px;
+	padding-right:5px;
+	color:white;
+	font-weight:bold;
+	text-align:right;
+}	
+
+
+
+
+@media (min-width: 992px) {
+div.box {
+	width:300px;
+  }
+
+	
+@media (min-width: 768px) and (max-width: 991px) {
+div.box {
+	width:300px;
+  }
+
+@media (max-width: 767px) {
+	
+}
+	
+	
+	
